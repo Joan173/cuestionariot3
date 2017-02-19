@@ -1,5 +1,5 @@
 # cuestionariot3
-Tarea03 de LM
+Tasca03 de LM
 Crea una pàgina web amb 10 preguntes amb, al menys, 5 tipus diferents d'elements de formulari.
 Crea un fitxer XML que contingui el text de les preguntes, les respostes correctes i la informació que creguis necessària (preguntes.xml)
 Codifica JavaScript per donar una sol·lució automatitzada a l'examen (el JavaScript compara les respostes introduïdes al formulari amb les respostes que hi ha al fitxer XML preguntes.xml)
