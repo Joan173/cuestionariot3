@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--llamada al dtd por url nos ahorramos subir el xml Y dtd a http://www.xmlvalidation.com, de esta manera http://www.xmlvalidation.com al detectar esta llamada en este xml lo valida directamente usando questions.dtd-->
+<!DOCTYPE questions PUBLIC "-//Joan173//dtd_para_validar_questions_xml//ES" "https://github.com/Joan173/questionaryvalidation/questions.dtd">
+<!--en el caso de querer validarlo localmente subiendo xml y el dtd se debe cambiar el DOCTYPE al siguiente:-->
+<!-- <!DOCTYPE questions SYSTEM "questions.dtd"> -->
+
+<questions>
+	   
+	    <question id="question1">
+			<type>text</type>
+				<title>¿Cómo se traduce "Pájaro" en inglés?</title>
+				<answer>Bird</answer>
+		</question>
+		
+		
+		
+		<question id="question2">
+			<type>select</type>
+				<title>¿Cuál es el símbolo químico de Sodio?</title>
+					<option>K</option>
+					<option>O</option>
+					<option>N</option>
+					<option>Na</option>
+					<option>Fe</option>
+					<option>He</option>
+					<answer>Na</answer>				
+		</question>
+  
+ 
+  
+		<question id="question3">
+			<type>multiple</type>
+				<title>Completa la frase: En un lugar de</title> <!-- En un lugar de LA MANCHA de cuyo nombre no puedo ACORDARME. -->
+					<option>Castilla y León</option>
+					<option>la mancha</option>
+					<option>Madrid</option>
+					<option>de cuyo nombre no puedo recordar</option>
+					<option>de cuyo nombre no puedo acordarme</option>
+					<option>de cuyo nombre no puedo olvidarme</option>
+					<answer>la mancha</answer>
+					<answer>de cuyo nombre no puedo acordarme</answer>
+		</question>
+		
+		
+		
+		<question id="question4">
+			<type>checkbox</type>
+				<title>¿Cuáles son los antónimos de "Feliz"?</title>
+					<option>Triste</option>
+					<option>Excitado</option>
+					<option>Deprimido</option>
+					<option>Sentado</option>
+			<answer>Triste</answer>
+			<answer>Deprimido</answer>
+		</question>
+		
+  
+		<question id="question5">
+			<type>radio</type>
+				<title>¿En qué año llegó el hombre a la luna?</title>
+					<option>1968</option>
+					<option>1969</option>
+					<option>1970</option>
+					<option>1971</option>
+			<answer>1969</answer>
+		</question>
+		
+		
+		
+		<question id="question6">
+			<type>number</type>
+				<title>¿En qué año empezó la Primera Guerra Mundial?</title>
+			<answer>1914</answer>
+		</question>
+		
+		
+		
+		<question id="question7">
+			<type>select</type>
+				<title>Escoge la séptima letra del abecedario:</title>
+					<option>A</option>
+					<option>H</option>
+					<option>X</option>
+					<option>J</option>
+					<option>G</option>
+					<option>F</option>
+			<answer>G</answer>
+		</question>
+  
+ 
+  
+		<question id="question8">
+			<type>text</type>
+				<title>Escribe cual es el color rojo puro en Hexadecimal incluye el hashtag:</title>
+			<answer>#FF0000</answer>
+		</question>
+		
+		
+		
+		<question id="question9">
+			<type>radio</type>
+				<title>¿Cuál es el formula química del agua?</title>
+					<option>H02</option>
+					<option>O2H</option>
+					<option>HHO</option>
+					<option>H20</option>
+			<answer>H20</answer>
+		</question>
+		
+		
+  
+		<question id="question10">
+			<type>select</type>
+				<title>Selecciona cual es la altura del monte Everest</title>
+					<option>8848cm</option>
+					<option>8848km</option>
+					<option>8848m</option>
+					<option>Ninguna de las anteriores</option>
+			<answer>8848m</answer>
+		</question>
+</questions>
